@@ -1,0 +1,31 @@
+<head>
+	<?php echo $this->headTitle('titulo'); ?>
+	<?php echo $this->headMeta(); ?>
+	<?php 
+		$_path_include =  Zend_Registry::get('path_include');
+	/* # Rever
+	<meta name="Author" content="Apple Inc." />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta property="og:image" content="/v/home/bq/images/og.jpg?201506300850" />
+	<meta property="og:type" content="website" />
+	<meta property="og:site_name" content="Apple" />
+	<meta property="og:url" content="https://www.apple.com/br/" />
+	<meta name="Description" content="A Apple desenvolve e cria o iPhone, o iPad, os desktops e laptops Mac, o iOS 8, o OS X, o iPod e o iTunes, e o novo Apple Watch."  />
+	<meta name="keywords" content="" />
+	<meta name="robots" content="INDEX,FOLLOW" />
+	*/
+	?>
+  <?php //$this->headLink()->appendStylesheet('caminho', 'screen'); ?>
+  <?php //$this->headLink()->appendStylesheet('caminho', 'screen', 'IE 7' ); ?>
+
+  <?php $this->headLink()->appendStylesheet($this->baseUrl($_path_include.'layout/css/bootstrap.min.css'), 'screen'); ?>
+  <?php $this->headLink()->appendStylesheet($this->baseUrl($_path_include.'layout/css/bootstrap-theme.min.css'), 'screen'); ?>
+  <?php $this->headLink()->appendStylesheet($this->baseUrl($_path_include.'layout/css/styles.css'), 'screen'); ?>
+  <?php echo $this->headLink(); ?>
+
+  <?php //$this->headScript()->appendFile('caminho') ?>
+  <?php //$this->headScript()->appendFile('caminho', 'text/javascript', array('conditional' => 'lt IE 9')) ?>
+  <?php $this->headScript()->appendFile($this->baseUrl($_path_include.'layout/js/jquery-2.1.4.min.js')) ?>
+  <?php $this->headScript()->appendFile($this->baseUrl($_path_include.'layout/js/bootstrap.min.js')) ?>
+  <?php echo $this->headScript(); ?> 
+</head>

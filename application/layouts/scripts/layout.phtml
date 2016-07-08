@@ -1,0 +1,11 @@
+<?php echo $this->doctype(); ?>
+<html lang="pt-br" xml:lang="pt-BR">
+<?php echo $this->render('layout/head.phtml'); ?>
+<body>
+	<?php echo $this->render('layout/header.phtml'); ?>
+	<section>
+		<?php echo $this->layout()->content; ?>
+	</section>
+	<?php echo $this->render('layout/footer.phtml'); ?>
+</body>
+</html>
