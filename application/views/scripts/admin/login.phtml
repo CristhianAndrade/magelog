@@ -1,0 +1,34 @@
+<div class="container">
+
+	<div class="row" id="pwd-container">
+	    
+	    <div class="col-md-offset-4 col-md-4">
+	      <section class="login-form">
+	      	<img src="<?php echo $this->getHelper('tools')->skinImage('logo.png') ?>" class="logo img-responsive" alt="Magelog" />
+	      	<div class="mensages">
+	      		<?php echo $this->getHelper('tools')->getMensages($this->flashmsgs); ?>
+	      	</div>
+	        <form method="post" action="#" role="login">
+	          <input type="email" name="email" placeholder="E-mail" required class="form-control input-lg"  />
+	          
+	          <input type="password" class="form-control input-lg" id="password" placeholder="Senha" required="" />
+
+	          <!--div class="pwstrength_viewport_progress"></div-->
+	          
+	          <button type="submit" name="go" class="btn btn-lg btn-primary btn-block">Entrar</button>
+	          <div>
+	            <!--a href="#">Create account</a--> 
+	          </div>
+	          
+	        </form>
+	        
+	        <div class="form-links">
+	          <a href="#">Recuperar senha</a>
+	        </div>
+	        <a href="">magelog.com.br</a>
+	      </section>  
+	    </div>
+	      
+	</div>   
+  
+</div>

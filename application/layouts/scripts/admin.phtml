@@ -1,0 +1,12 @@
+<?php echo $this->doctype(); ?>
+<html lang="pt-br" xml:lang="pt-BR">
+<?php echo $this->render('admin/head.phtml'); ?>
+
+<body class="<?php echo $this->getHelper('tools')->bodyClass(); ?>">
+	<?php echo $this->render('admin/header.phtml'); ?>
+	<div class="main">
+		<?php echo $this->layout()->content; ?>
+	</div>
+	<?php echo $this->render('admin/footer.phtml'); ?>
+</body>
+</html>

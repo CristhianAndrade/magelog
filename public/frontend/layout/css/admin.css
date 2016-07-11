@@ -1,0 +1,86 @@
+html.page-admin-login, body.page-admin-login {
+  background: #a51e67; }
+
+a {
+  text-decoration: none; }
+  a:hover {
+    text-decoration: none; }
+
+input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  -webkit-transition: background-position .2s,background-color .2s,border-color .2s,box-shadow .2s;
+  transition: background-position .2s,background-color .2s,border-color .2s,box-shadow .2s; }
+
+.main {
+  height: 100%; }
+  .main .login-form {
+    margin-top: 100px; }
+    .main .login-form input.form-control {
+      border: none;
+      background-color: rgba(0, 0, 0, 0.3);
+      color: rgba(255, 255, 255, 0.7);
+      border-radius: 2px;
+      outline: 0;
+      margin: 5px 0;
+      padding: 0 10px;
+      font-size: 17px;
+      line-height: 20px;
+      height: 40px;
+      margin-bottom: 10px;
+      box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6) inset, 0 0 0 1px rgba(255, 255, 255, 0.07) inset; }
+      .main .login-form input.form-control:focus {
+        border-color: #a51e67;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: #fff; }
+    .main .login-form img.logo {
+      margin: auto;
+      margin-bottom: 30px; }
+    .main .login-form button.btn-primary {
+      margin-top: 5px;
+      margin-bottom: 10px;
+      padding: 9px 10px;
+      background-color: #00b1b1;
+      color: #fff;
+      border: 1px solid transparent;
+      box-shadow: 0 0 transparent;
+      border-radius: 2px;
+      background-image: -webkit-linear-gradient(top, #00b1b1, #0090d0);
+      background-image: linear-gradient(to bottom, #00b1b1, #0090d0);
+      border: 0;
+      box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3), 0 0 0 1px rgba(255, 255, 255, 0.15) inset;
+      font-size: 17px;
+      line-height: 20px;
+      height: 40px;
+      outline: 0; }
+      .main .login-form button.btn-primary:hover {
+        background-color: #00b1b1;
+        background-image: -webkit-linear-gradient(top, #0090d0, #00b1b1);
+        background-image: linear-gradient(to bottom, #0090d0, #00b1b1);
+        border-color: transparent;
+        box-shadow: 0 0 transparent; }
+      .main .login-form button.btn-primary:active, .main .login-form button.btn-primary:focus {
+        background-color: #00527b;
+        box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6) inset, 0 0 0 1px rgba(255, 255, 255, 0.07) inset;
+        background-image: linear-gradient(to bottom, #00426b, #00527b);
+        color: rgba(255, 255, 255, 0.7);
+        border-color: transparent; }
+    .main .login-form .form-links a {
+      background-color: rgba(0, 0, 0, 0.3);
+      color: rgba(255, 255, 255, 0.7);
+      display: block;
+      padding: 10px;
+      border: 1px solid #a51e67;
+      text-align: center; }
+      .main .login-form .form-links a:hover {
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.5); }
+    .main .login-form a {
+      display: block;
+      text-align: center;
+      margin-top: 10px;
+      color: #fff; }
+
+/*# sourceMappingURL=admin.css.map */

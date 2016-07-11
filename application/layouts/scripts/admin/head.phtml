@@ -1,0 +1,13 @@
+<head>
+	<?php echo $this->headTitle($this->title); ?>
+	<?php echo $this->headMeta(); ?>
+
+  <?php $this->headLink()->appendStylesheet( $this->getHelper('tools')->skinCss('bootstrap.min.css'), 'screen'); ?>
+  <?php $this->headLink()->appendStylesheet($this->getHelper('tools')->skinCss('bootstrap-theme.min.css'), 'screen'); ?>
+  <?php $this->headLink()->appendStylesheet($this->getHelper('tools')->skinCss('admin.css'), 'screen'); ?>  
+  <?php echo $this->headLink(); ?>
+
+  <?php $this->headScript()->appendFile($this->getHelper('tools')->skinJs('jquery-2.1.4.min.js')) ?>
+  <?php $this->headScript()->appendFile($this->getHelper('tools')->skinJs('bootstrap.min.js')) ?>
+  <?php echo $this->headScript(); ?> 
+</head>

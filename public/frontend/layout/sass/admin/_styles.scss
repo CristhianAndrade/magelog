@@ -1,0 +1,104 @@
+html, body{
+	&.page-admin-login{
+		background: $color1;
+	}
+}
+
+a{
+	text-decoration: none;
+	&:hover{
+		text-decoration: none;
+	}
+}
+
+input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    -webkit-transition: background-position .2s,background-color .2s,border-color .2s,box-shadow .2s;
+    transition: background-position .2s,background-color .2s,border-color .2s,box-shadow .2s;
+}
+
+.main{
+	height: 100%;
+	.login-form{
+		margin-top:100px;
+		input.form-control{
+			border: none;
+		    background-color: rgba(0,0,0,0.3);
+		    color: rgba(255,255,255,0.7);
+		    border-radius: 2px;
+			outline: 0;
+			margin: 5px 0;
+		    padding: 0 10px;
+		    font-size: 17px;
+		    line-height: 20px;
+		    height: 40px;
+		    margin-bottom: 10px;
+		    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6) inset, 0 0 0 1px rgba(255, 255, 255, 0.07) inset;
+		    &:focus{
+		    	border-color: $color1;
+			    background-color: rgba(0,0,0,0.5);
+			    color: $white;
+		    }
+		}
+		img.logo{
+			margin: auto;
+			margin-bottom: 30px;
+		}
+		button.btn-primary{
+			margin-top: 5px;
+    		margin-bottom: 10px;
+    		padding: 9px 10px;
+    		background-color: $color21;
+		    color: $white;
+		    border: 1px solid transparent;
+		    box-shadow: 0 0 rgba(0,0,0,0);
+		    border-radius: 2px;
+		    background-image: -webkit-linear-gradient(top, $color21, $color2);
+		    background-image: linear-gradient(to bottom, $color21, $color2);
+		    border: 0;
+		    box-shadow: 0 1px 1px rgba(0,0,0,0.3),0 0 0 1px rgba(255,255,255,0.15) inset;
+		    font-size: 17px;
+		    line-height: 20px;
+		    height: 40px;
+		    outline: 0;
+		    &:hover{
+		    	background-color: $color21;
+		    	background-image: -webkit-linear-gradient(top, $color2, $color21);
+		    	background-image: linear-gradient(to bottom, $color2, $color21);
+		    	border-color: transparent;
+    			box-shadow: 0 0 rgba(0,0,0,0);
+		    }
+		    &:active, &:focus{
+		    	background-color: $color23;
+		    	box-shadow: 1px 1px 2px rgba(0,0,0,0.6) inset,0 0 0 1px rgba(255,255,255,0.07) inset;
+		    	background-image: linear-gradient(to bottom,$color22,$color23);
+		    	color: rgba(255,255,255,0.7);
+		    	border-color: transparent;
+
+		    }
+		}
+		.form-links{
+			a{
+			    background-color: rgba(0, 0, 0, 0.3);
+			    color: rgba(255, 255, 255, 0.7);
+			    display: block;
+			    padding:10px;
+			    border: 1px solid $color1;
+			    text-align:center;
+			    &:hover{
+			    	color: $white;
+			    	background-color: rgba(0,0,0,0.5);
+			    }
+			}
+		}
+		a{
+			display: block;
+		    text-align: center;
+		    margin-top: 10px;
+		    color: $white;
+		}
+	}
+}
